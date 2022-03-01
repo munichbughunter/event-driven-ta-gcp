@@ -2,9 +2,8 @@ FROM mcr.microsoft.com/playwright:bionic
 USER root
 WORKDIR /automation
 COPY package.json ./
-COPY package-lock.json ./
 
-RUN npm ci
+RUN npm i
 
 COPY . ./
 
