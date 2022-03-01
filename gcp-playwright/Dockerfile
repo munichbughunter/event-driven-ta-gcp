@@ -7,4 +7,4 @@ RUN npm i
 
 COPY . ./
 
-RUN npm test:chrome
+RUN npx playwright test --project=chromium
