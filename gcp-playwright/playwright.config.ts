@@ -8,7 +8,7 @@ const config: PlaywrightTestConfig = {
 
     use: {
 
-        headless: process.env.HEADLESS === 'true',
+        headless: true,
 
         /* What is this? */
         ignoreHTTPSErrors: process.env.IGNORE_HTTPS_ERRORS === 'true',

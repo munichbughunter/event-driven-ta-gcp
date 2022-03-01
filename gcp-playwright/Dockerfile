@@ -7,4 +7,4 @@ RUN npm i
 
 COPY . ./
 
-RUN npx playwright test --project=chromium
+RUN npx playwright test --project=chromium --reporter=list
