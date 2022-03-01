@@ -7,7 +7,4 @@ RUN npm i
 
 COPY . ./
 
-RUN apg-get update
-RUN apt-get install wget
-
 RUN npm test:chrome
