@@ -1,0 +1,8 @@
+../.DS_Store
+.DS_Store
+.gradle/
+.idea/
+build/
+opt/
+src/.DS_Store
+../gcp-trigger-function/.idea/
