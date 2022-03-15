@@ -108,3 +108,5 @@ dist
 
 /gcp-trigger-function/.DS_Store
 gcp-trigger-function/.DS_Store
+.idea
+../.DS_Store
